@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asserts/global.css">
+    <link rel="stylesheet" href="Content/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/04a6eebba3.js" crossorigin="anonymous"></script>
+
+    <title>Dashboard - Perfil</title>
+</head>
+<body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <nav id="menu">
+        <h2>Encontrei Job</h2>
+        <div>
+            <a href="../Dashboard_candidato/Index.html">VAGAS</a>
+            <a href="../Dashboard_candidato_perfil/index.html">PERFIL</a>
+            <a href="../Login/Index.html">SAIR</a>
+            <div id="indicator"></div>
+        </div>
+    </nav>
+
+    <section class="section-vagas">
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="content/img/perfil_foto.jpg">
+                        <span class="font-weight-bold">Pedro Alves</span>
+                        <span class="text-black-50">pedro@mail.com.br</span><span> </span></div>
+                </div>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Configurações do perfil</h4>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6"><label class="labels">Nome</label>
+                                <input type="text" class="form-control" placeholder="Nome" value="">
+                            </div>
+
+                            <div class="col-md-6"><label class="labels">Sobrenome</label>
+                                <input type="text" class="form-control" value="" placeholder="Sobrenome">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Número de telefone</label>
+                                <input type="text" class="form-control" placeholder="Digite o número de telefone" value="">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="labels">E-mail</label>
+                                <input type="text" class="form-control" placeholder="Digite o e-mail" value="">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <label class="labels">Pais</label>
+                                <input type="text" class="form-control" placeholder="Pais" value="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="labels">Estado</label>
+                                <input type="text" class="form-control" value="" placeholder="Estado">
+                            </div>
+                            <div class="col-md-12">
+                                <label class="labels">Endereço</label>
+                                <input type="text" class="form-control" placeholder="Digite o endereço" value="">
+                            </div>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <button class="btn btn-primary profile-button" type="button">Salvar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center experience">
+                            <span>Editar experiência</span><span class="border px-3 p-1 add-experience">
+                                <i class="fa fa-plus"></i>&nbsp;Experiência</span>
+                            </div><br>
+                        <div class="col-md-12">
+                            <label class="labels">Experiência</label>
+                            <input type="text" class="form-control" placeholder="Experiência" value="">
+                        </div> <br>
+                        <div class="col-md-12">
+                            <label class="labels">Adiciona Detalhes</label>
+                            <input type="text" class="form-control" placeholder="Adiciona detalhes" value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>

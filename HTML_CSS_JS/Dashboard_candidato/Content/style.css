@@ -1,0 +1,53 @@
+.section-vagas{
+    display: flex;
+    align-items: center;
+    margin: 5em;
+}
+
+.section-vagas h3{
+    color: #DC1F1F;
+}
+
+#filter{
+    background-color: #DC1F1F;
+    color: #ffff;
+    border: 0;
+    outline: 0;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.card-information{
+    width: 750px;
+	box-shadow: 0 4px 8px rgba(0,0,0,.20);
+    padding: 14px;
+    margin: 20px;  
+}
+
+.desc-nome{
+    color: #DC1F1F;
+}
+
+.desc-data{
+    color: black;
+}
+
+.desc-valor{
+    width: 50%;
+    color: #B6B6B6;
+}
+
+.descricao{
+    color: black;
+    font-weight: 600;
+}
+
+.btn-desc{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
